@@ -34,3 +34,16 @@ now you can execute the program by running:
     npm start
 
 ```
+## add to /usr/local/bin
+
+to run the program from anywhere
+
+```bash
+    chmod +x ./dist/index.js
+    ln -s /path/to/index.js /usr/local/bin/gpt
+```
+
+finally you can execute the program simply using:
+```bash
+    gpt
+```
