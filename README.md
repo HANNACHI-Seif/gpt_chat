@@ -47,3 +47,16 @@ finally you can execute the program simply using:
 ```bash
     gpt
 ```
+you should see:
+
+```bash
+    welcome to the gpt chatbot program!
+    you can start chatting right away
+
+    /q or quit to exit
+    /s or save to save current chat to a text file
+    /r or restart to restart the conversation
+    /c or clear to clear the console/h or help to display commands
+
+    You:| 
+```
