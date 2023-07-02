@@ -56,7 +56,8 @@ you should see:
     /q or quit to exit
     /s or save to save current chat to a text file
     /r or restart to restart the conversation
-    /c or clear to clear the console/h or help to display commands
+    /c or clear to clear the console
+    /h or help to display commands
 
     You:| 
 ```

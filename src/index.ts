@@ -16,7 +16,7 @@ const display_help = () => {
     let message = '/q or quit to exit\n'
     message += '/s or save to save current chat to a text file\n'
     message += '/r or restart to restart the conversation\n'
-    message += '/c or clear to clear the console'
+    message += '/c or clear to clear the console\n'
     message += '/h or help to display commands'
     console.log(colors.cyan(message))
 }
