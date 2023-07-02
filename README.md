@@ -14,7 +14,7 @@ Node, Typescript and openai liberary
 run the following commands to build the project:
 
 ```bash
-  git clone rep_url
+  git clone https://github.com/HANNACHI-Seif/gpt_chat.git
   cd gpt_chat
   npm i
   npm run build
