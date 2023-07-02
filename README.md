@@ -14,10 +14,10 @@ Node, Typescript and openai liberary
 run the following commands to build the project:
 
 ```bash
-  git clone https://github.com/HANNACHI-Seif/gpt_chat.git
-  cd gpt_chat
-  npm i
-  npm run build
+  $ git clone https://github.com/HANNACHI-Seif/gpt_chat.git
+  $ cd gpt_chat
+  $ npm i
+  $ npm run build
 
 ```
 ### env
@@ -25,13 +25,13 @@ run the following commands to build the project:
 you need to setup a .env file containing the api key of your chatgpt account(you can generate one easily in your openai account) in the root directory 
 
 ```bash
-    touch .env
-    echo "API_KEY=YOUR_API_KEY_HERE" > .env
+    $ touch .env
+    $ echo "API_KEY=YOUR_API_KEY_HERE" > .env
 ```
 
 now you can execute the program by running:
 ```bash
-    npm start
+    $ npm start
 
 ```
 ## add to /usr/local/bin
@@ -39,13 +39,13 @@ now you can execute the program by running:
 to run the program from anywhere
 
 ```bash
-    chmod +x ./dist/index.js
-    ln -s /path/to/index.js /usr/local/bin/gpt
+    $ chmod +x ./dist/index.js
+    $ ln -s /path/to/index.js /usr/local/bin/gpt
 ```
 
 finally you can execute the program simply using:
 ```bash
-    gpt
+    $ gpt
 ```
 you should see:
 
